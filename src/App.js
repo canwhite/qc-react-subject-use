@@ -37,14 +37,14 @@ function App() {
 
   return (
     <div className="App">
-      <AppComponent appSubject = {state.appSubject} rappSubject = {state.rappSubject} />
+      <SonComponent appSubject = {state.appSubject} rappSubject = {state.rappSubject} />
       <p><button onClick={sendData}>父传子</button></p>
       <p>接收子组件数据：{state.data}</p>
     </div>
   );
 }
 
-function AppComponent(props){
+function SonComponent(props){
   const subs = [];
 
   const state = useReactive({

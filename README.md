@@ -4,7 +4,7 @@ Replacing react's parent-child communication with rxjs' subject～
 
 ## run
 ```
-yarn install
+yarn install or pnpm install
 yarn start
 
 ```
